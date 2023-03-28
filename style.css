@@ -1,0 +1,79 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Montserrat", sans-serif; */
+}
+
+body {
+  background: url(./Images/road\ to\ mountainsJPG.JPG);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: red; */
+  width: 30%;
+  height: 25%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+}
+h1 {
+  color: aliceblue;
+}
+span {
+  font-size: 60px;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.buttonBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+button {
+  width: 30%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  /* color: white; */
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+  font-size: 20px;
+}
+Button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+#start {
+  background-color: green;
+}
+#stop {
+  background-color: red;
+}
+#reset {
+  background-color: #333;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .container {
+    width: 80%;
+  }
+}
