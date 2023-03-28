@@ -23,8 +23,8 @@ body {
   justify-content: space-around;
   align-items: center;
   /* background-color: red; */
-  width: 40%;
-  height: 25%;
+  width: 450px;
+  /* height: 25%; */
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 15px;
@@ -70,14 +70,4 @@ button:active {
 }
 #reset {
   background-color: #333;
-}
-@media (min-width: 701) and (max-width: 1100px) {
-  .container {
-    width: 70%;
-  }
-}
-@media (min-width: 320px) and (max-width: 700px) {
-  .container {
-    width: 80%;
-  }
 }
